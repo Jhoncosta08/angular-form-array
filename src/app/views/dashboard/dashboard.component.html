@@ -1,0 +1,26 @@
+<div class="container">
+
+  <div class="row" style="margin-bottom: 2rem;">
+    <div class="col">
+      <h1>Form array app</h1>
+    </div>
+  </div>
+
+  <form [formGroup]="projects">
+    <ng-template ngFor [ngForOf]="getProjectsControlsValues().controls" let-i="index" formArrayName="projects">
+      <small>Project: {{ i + 1}}</small>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Type the project name..." formControlName="{{ i }}">
+        <button (click)="removeProjectFromFormGroup(i)" class="btn btn-danger" type="button">REMOVE</button>
+      </div>
+    </ng-template>
+  </form>
+
+  <div class="row">
+    <div class="col">
+      <button (click)="addProjectToFormGroup()" class="btn btn-primary" style="margin-right: 1rem;">ADD NEW PROJECT</button>
+      <button (click)="sendForm()" class="btn btn-success" type="button">SEND FORM</button>
+    </div>
+  </div>
+
+</div>
