@@ -1,7 +1,7 @@
 # Project title here
 
 ## About the project
->Project description here...
+>Project in angular, with the intention of practicing and serving as a model for the use of dynamic form array.
 
 ## Main technologies used in the project
 >* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
