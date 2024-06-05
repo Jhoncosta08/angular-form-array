@@ -70,3 +70,9 @@
 
 ## Development server
 > Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Preview app
+![image](https://github.com/Jhoncosta08/angular-form-array/blob/master/src/assets/preview-one.png)
+![image](https://github.com/Jhoncosta08/angular-form-array/blob/master/src/assets/preview-two.png)
+![image](https://github.com/Jhoncosta08/angular-form-array/blob/master/src/assets/preview-three.png)
+
